@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background: url("./images/background.jpg");
+  background: url("./images/pexels-pixabay-164821.jpg");
   background-size: cover;
 }
 
@@ -44,4 +44,5 @@ h1 {
 
 .btn:active {
   background-size: 105%;
+  background: url("./images/bass\ drum.jpg");
 }
