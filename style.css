@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("./images/background.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 4px;
+  white-space: nowrap;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  padding: 30px 50px;
+  background: #fff;
+  border: none;
+  margin: 10px;
+  font-size: 30px;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: url("./images/bass-drum.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: blue;
+}
+
+.btn:active {
+  background-size: 105%;
+}
